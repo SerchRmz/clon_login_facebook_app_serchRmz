@@ -1,0 +1,139 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #edf0f5;
+}
+
+.principal {
+    margin: 0 auto;
+    padding: 20px 0;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    width: 980px;
+}
+
+.imgFacebook img {
+    height: 106px;
+    width: -28px;
+    text-align: left;
+}
+
+.imgFacebook h2 {
+    font-size: 24px;
+    width: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    padding: 0 0 20px;
+    text-align: left;
+}
+
+.contenido_formulario {
+    align-items: center;
+    background-color: #FFF;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgb(0 0 0/ 10%), 0 8px 16px rgb(0 0 0/ 10%);
+    box-sizing: border-box;
+    margin: 40px 0 0;
+    padding: 20px 0 28px;
+    width: 396px;
+}
+
+.caja_texto {
+    background: #FFF repeat-x;
+    border: 1px solid #dddfe2;
+    color: #1d2129;
+    font-family: Arial, Helvetica, sans-serif;
+    vertical-align: middle;
+    border-radius: 6px;
+    font-size: 17px;
+    padding: 14px 16px;
+    width: 330px;
+}
+
+.contenido_caja_texto {
+    padding: 6px 0;
+}
+
+.boton_inciar_sesion {
+    background-color: #1877f2;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 332px;
+    color: #FFF;
+}
+
+.contenido_boton {
+    padding: 6px;
+}
+
+.link_olvidaste {
+    color: #1877f2;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.contenido_link {
+    margin-top: 16px;
+}
+
+.separador {
+    align-items: center;
+    border-bottom: 1px solid #dadde1;
+    display: flex;
+    margin: 20px 16px;
+    text-align: center;
+}
+
+.link_crear_cuenta {
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 48px;
+    padding: 0 16px;
+    background-color: #42d72a;
+    border-color: #42d72a;
+    color: #FFF;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.contenido_crear_pagina {
+    margin-top: 10px;
+    border-top: none;
+    color: #1c1e21;
+    font-size: 14px;
+    font-weight: normal;
+    padding-top: 0;
+}
+
+.contenido_crear_pagina a{
+    font-size: 14px;
+    font-weight: 600;
+    color: #000;
+}
+
+@media only screen and (max-width:900px){
+    .principal {
+        flex-direction: column;
+        width: 500px;
+        align-items: center;
+    }
+
+    .imgFacebook {
+        text-align: center;
+    }
+
+    .imgFacebook h2 {
+        text-align: center;
+    }
+}
